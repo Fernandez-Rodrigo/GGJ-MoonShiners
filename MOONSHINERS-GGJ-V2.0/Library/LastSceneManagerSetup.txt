@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/3rdPerson+Fly/Scenes/Melee.unity
+=======
+- path: Assets/Scenes/MainMenu.unity
+>>>>>>> 0af6d012cdde68e76e266e372df486329dc8cbd4
   isLoaded: 1
   isActive: 1
   isSubScene: 0
