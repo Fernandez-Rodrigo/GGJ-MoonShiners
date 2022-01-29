@@ -6,11 +6,15 @@ using UnityEngine.UI;
 public class ShineCounter : MonoBehaviour
 {
     public Slider shineSlider;
+    public int Threshold = 10;
 
     public void SumShine()
     {
-        shineSlider.value = shineSlider.value + 0.1f;
+        Inventory.Instance.shines++;
+        shineSlider.value += 0.1f;
     }
 
+    
+   
 
 }

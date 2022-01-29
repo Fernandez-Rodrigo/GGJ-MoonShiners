@@ -25,7 +25,6 @@
         protected virtual void ExecuteOnEnter(Collider other)
         {
             OnEnter.Invoke();
-
         }
 
         void OnTriggerExit(Collider other)

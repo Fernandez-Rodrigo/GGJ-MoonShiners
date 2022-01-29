@@ -59,7 +59,9 @@
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\MoveBehaviour.cs" />
+    <Compile Include="Assets\3DGamekitLite\Scripts\Game\UI\DialogueCanvasController.cs" />
     <Compile Include="Assets\Scripts\Sounds.cs" />
+    <Compile Include="Assets\3DGamekitLite\Scripts\Game\UI\InteractOnTrigger.cs" />
     <Compile Include="Assets\Scripts\MeleeSystem.cs" />
     <Compile Include="Assets\3rdPerson+Fly\Scripts\LevelScripts\ControlsTutorial.cs" />
     <Compile Include="Assets\Scripts\Shines.cs" />
@@ -68,12 +70,14 @@
     <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\AimBehaviourBasic.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\FlyBehaviour.cs" />
+    <Compile Include="Assets\Scripts\TypewriterEffect.cs" />
     <Compile Include="Assets\Scripts\LightPreset.cs" />
     <Compile Include="Assets\3rdPerson+Fly\Scripts\LevelScripts\ThirdPersonOrbitCamBasic.cs" />
     <Compile Include="Assets\Scripts\ShineCounter.cs" />
-    <Compile Include="Assets\Scripts\TypewriterEffect.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\UI\DialogueCanvasController.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\UI\InteractOnTrigger.cs" />
+    <Compile Include="Assets\CheckShine.cs" />
+    <Compile Include="Assets\MoonShine.cs" />
+    <Compile Include="Assets\Inventory.cs" />
+    <Compile Include="Assets\CheckMoonShine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
