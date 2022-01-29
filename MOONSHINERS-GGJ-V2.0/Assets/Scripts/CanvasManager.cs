@@ -5,7 +5,8 @@ using UnityEngine;
 public class CanvasManager : MonoBehaviour
 {
     public Canvas missionCanvas;
-    
+    public Canvas dialogueCanvas;
+
     public void ShowMission()
     {
         missionCanvas.gameObject.SetActive(true);
@@ -14,6 +15,17 @@ public class CanvasManager : MonoBehaviour
     public void HideMission()
     {
         missionCanvas.gameObject.SetActive(false);
+    }
+
+
+    public void ShowDialogue()
+    {
+        dialogueCanvas.gameObject.SetActive(true);
+    }
+
+    public void HideDialogue()
+    {
+        dialogueCanvas.gameObject.SetActive(false);
     }
 
 
