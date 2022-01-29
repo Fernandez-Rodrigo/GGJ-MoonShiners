@@ -10,33 +10,35 @@ public class LightManager : MonoBehaviour
     [SerializeField] private LightPreset Preset;
     //Variables
     [SerializeField, Range(0, 24)] private float TimeOfDay;
-    // PlayerController _playerControls;
+  
 
     private void Start()
     {
-        //_playerControls = new PlayerController();
+       
     }
 
     private void Update()
     {
         if (Preset == null)
             return;
+
+
         if (Application.isPlaying)
         {
-            //  if (_playerControls.Player.AdvanceTime.ReadValue<float>() >= 0.1f == true)
-            //  {
-            //       TimeOfDay += Time.deltaTime * 2;
-            //      TimeOfDay %= 24;
-            //      UpdateLighting(TimeOfDay / 24f);
+            if (Input.GetKey(KeyCode.T))
+            {
+                TimeOfDay += Time.deltaTime*10;
+                TimeOfDay %= 24;
+                UpdateLighting(TimeOfDay / 24f);
+            }
+            else
+            {
+                TimeOfDay += Time.deltaTime*0.7f;
+                TimeOfDay %= 24;
+                UpdateLighting(TimeOfDay / 24f);
+            }
 
-            //   }
-            //  else
-            //  {
-            TimeOfDay += Time.deltaTime;
-            TimeOfDay %= 24;
-            UpdateLighting(TimeOfDay / 24f);
 
-            //   }
         }
 
         else
