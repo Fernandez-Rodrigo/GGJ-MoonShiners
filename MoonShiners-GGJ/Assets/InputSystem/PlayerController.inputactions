@@ -1,0 +1,34 @@
+{
+    "name": "PlayerController",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "a83d4929-89dd-4267-ad43-5e20142493dd",
+            "actions": [
+                {
+                    "name": "AdvanceTime",
+                    "type": "PassThrough",
+                    "id": "72e0f601-efaf-4f03-af8e-217b1dd69d54",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d56e4b9e-a748-4236-9ec1-9e5175db1bdb",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AdvanceTime",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
