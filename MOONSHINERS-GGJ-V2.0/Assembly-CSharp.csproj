@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\LightPreset.cs" />
     <Compile Include="Assets\3rdPerson+Fly\Scripts\LevelScripts\ThirdPersonOrbitCamBasic.cs" />
     <Compile Include="Assets\Scripts\ShineCounter.cs" />
+    <Compile Include="Assets\Scripts\CharacterMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
